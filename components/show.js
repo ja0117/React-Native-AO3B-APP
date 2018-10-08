@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-
+import { StyleSheet, Text, View } from 'react-native';
 class Show extends Component {
     render() {
         return (
             <View>
-               test 
+              <Text> test</Text> 
             </View>
         );
     }
