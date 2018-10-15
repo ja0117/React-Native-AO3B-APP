@@ -1,12 +1,14 @@
-export default class connection {
+export default class connection 
+{
 
-    getCurrentData() //getter
+    getCurrentLocationData() //getter
     {
         
         return null;
 
     }
-    setCurrentData() //setter
+
+    setCurrentLocationData() //setter
     {
 
     }
