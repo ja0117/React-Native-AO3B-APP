@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View,Dimensions, Image } from 'react-native';
-import Chart from './components/Chart';
+import Map from './components/Map';
 import Graph from './components/Graph';
 import Footer from './components/Footer';
 
@@ -10,7 +10,7 @@ export default class App extends React.Component {
   {
     super(props);
     this.state = {
-      test: "fgdfg",
+      test: "fgd fg",
     };
   }
   render() {
@@ -23,13 +23,14 @@ export default class App extends React.Component {
             source={require('../React-Native-AO3B-APP/images/zwolle.jpg')}
           />
          </View>
-         <View><Chart /></View>
-         <View>
+         <View style={styles.map}><Map /></View>
+         <View style={styles.waarde}>
            <Text>waarde 1</Text>
          </View>
-         <View></View>
-         <View><Graph /></View> 
-         <View><Footer authors="sven" /></View>
+         <View style={styles.waarde}><Text>waarde 2</Text></View>
+         <View style={styles.waarde}><Text>waarde 3</Text></View>
+         <View style={styles.graph}><Graph /></View> 
+         <View style={{width: width}}><Footer authors="Sven Tjeerdsma Jelle Huiberts Joshua Altena " copyright="©" alternativepeople="Fifa champ Mike de weert" /></View>
       </View>
     );
   }
@@ -44,15 +45,31 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     justifyContent: 'space-evenly',
+    height: '10%',
   },
   text: {
+    fontFamily: "sans-serif",
     fontSize: 50,
     color: "#476DB7",
   },
   container: {
-    backgroundColor: 'red',
-    top: 25,
+    backgroundColor: 'white',
+    top: '3%',
     flex: 12,
     alignItems: 'center',
+  },
+  graph: {
+    backgroundColor: 'white',
+    height: '20%',
+    width: '100%',
+  },
+  map: {
+    backgroundColor: 'white',
+    height:'30%',
+    width: '100%',
+  },
+  waarde: {
+    height: '10%',
+    width: '100%',
   },
 });

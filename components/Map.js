@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, View,Dimensions } from 'react-native';
-class Chart extends Component {
+class Map extends Component {
     render() {
         return (
             <View>
@@ -11,4 +11,4 @@ class Chart extends Component {
 }
 
 
-export default Chart;
+export default Map;
