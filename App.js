@@ -24,13 +24,14 @@ export default class App extends React.Component {
           />
          </View>
          <View style={styles.map}><Map /></View>
-         <View style={styles.waarde}>
-           <Text>waarde 1</Text>
-         </View>
+
+         <View style={styles.waarde}><Text>waarde 1</Text></View>
          <View style={styles.waarde}><Text>waarde 2</Text></View>
          <View style={styles.waarde}><Text>waarde 3</Text></View>
+
          <View style={styles.graph}><Graph /></View> 
-         <View style={{width: width}}><Footer authors="Sven Tjeerdsma Jelle Huiberts Joshua Altena " copyright="©" alternativepeople="Fifa champ Mike de weert" /></View>
+         
+         <View style={{width: width}}><Footer authors="Sven Tjeerdsma - Jelle Huiberts - Joshua Altena " copyright="©" alternativepeople="Fifa champ Mike de weert" /></View>
       </View>
     );
   }
@@ -64,7 +65,7 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   map: {
-    backgroundColor: 'white',
+    backgroundColor: 'gray',
     height:'30%',
     width: '100%',
   },
