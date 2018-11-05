@@ -17,13 +17,7 @@ export default class App extends React.Component {
     console.log(height);
     return (
       <View style={styles.container}>
-<<<<<<< HEAD
-        <View> 
-          <Text>Senshagen</Text>
-        </View>
 
-        <Show/>
-=======
          <View style={styles.title}><Text style={styles.text}>SensHagen</Text>
          <Image
            style={{width: 50, height: 50}}
@@ -38,7 +32,6 @@ export default class App extends React.Component {
          <View style={styles.waarde}><Text>waarde 3</Text></View>
          <View style={styles.graph}><Graph /></View> 
          <View style={{width: width}}><Footer authors="Sven Tjeerdsma Jelle Huiberts Joshua Altena " copyright="©" alternativepeople="Fifa champ Mike de weert" /></View>
->>>>>>> master
       </View>
     );
   }
@@ -61,19 +54,12 @@ const styles = StyleSheet.create({
     color: "#476DB7",
   },
   container: {
-<<<<<<< HEAD
-    flex: 1,
-    backgroundColor: '#3b99fc',
-=======
-    backgroundColor: 'white',
-    top: '3%',
-    flex: 12,
->>>>>>> master
     alignItems: 'center',
+    top: '3%',
   },
   graph: {
     backgroundColor: 'white',
-    height: '20%',
+    height: '23%',
     width: '100%',
   },
   map: {
