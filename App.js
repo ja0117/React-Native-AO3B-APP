@@ -30,7 +30,7 @@ export default class App extends React.Component {
          <View style={styles.waarde}><Text>waarde 3</Text></View>
 
          <View style={styles.graph}><Graph /></View> 
-         
+
          <View style={{width: width}}><Footer authors="Sven Tjeerdsma - Jelle Huiberts - Joshua Altena " copyright="©" alternativepeople="Fifa champ Mike de weert" /></View>
       </View>
     );
