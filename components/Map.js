@@ -8,10 +8,10 @@ class Map extends Component {
             <MapView 
                 style = {{ flex: 1 }}
                 initialRegion= {{
-                    latitude: 15.8080,
-                    longitude: 15.0808,
-                    latitudeDelta: 0.092,
-                    longitudeDelta: 0.0421
+                    latitude: 52.5351226,
+                    longitude: 6.0453339,
+                    latitudeDelta: 0.009,
+                    longitudeDelta: 0.009
                 }}
             />
         );
