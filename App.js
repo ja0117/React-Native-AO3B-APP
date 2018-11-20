@@ -22,6 +22,7 @@ export default class App extends React.Component {
          <Image
            style={{width: 50, height: 50}}
             source={require('../React-Native-AO3B-APP/images/zwolle.jpg')}
+            source={require('./images/zwolle.jpg')}
           />
          </View>
          <View style={styles.map}><Map /></View>
