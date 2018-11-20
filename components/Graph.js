@@ -5,15 +5,13 @@ import * as shape from 'd3-shape'
 
 class Graph extends Component {
     render() {
-        return (
-            <View>
-    render() 
-    {
+        
         const data = [ 50, 10, 40, 95, -4, -24, 85, 91, 35, 53, -53, 24, 50, -20, -80 ]
 
-            </View>
-        );
         return (
+
+
+
             <AreaChart
                 style={{ height: 200 }}
                 data={ data }
@@ -23,7 +21,7 @@ class Graph extends Component {
             >
                 <Grid/>
             </AreaChart>
-        )
+        );
     }
 }
 
